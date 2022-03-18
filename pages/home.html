@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | MovieDB 🎥 </title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!--1st column-->
+     <div class="menu-list box" style="flex-basis:400px;">
+        <h3>MovieDB 🎥 </h3>
+       <div class="flex-items">
+        <div class="genre each-item">
+            <span class="menu-items">GENRE</span>
+            <div class="genre-items">
+                <div class="each-genre home active item">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </div>
+                <div class="each-genre action item">
+                    <i class="fa-solid fa-user-ninja"></i>
+                    <span>Action</span>
+                </div>
+                <div class="each-genre sci-fi item">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>Sci-fi</span>
+                </div>
+                <div class="each-genre crime item">
+                    <i class="fa-solid fa-skull"></i>
+                    <span>Crime</span>
+                </div>
+                <div class="each-genre romance item">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>Romance</span>
+                </div>
+            </div>
+        </div>
+        <div class="platforms each-item">
+            <span class="menu-items">Platforms</span>
+            <div class="each-platform d-plus item">
+                <i class="fa-brands fa-dochub"></i>
+                <span>Disney +</span>
+            </div>
+            <div class="each-platform netflix item">    
+                <i class="fa-brands fa-neos"></i>           
+                <span>Netflix</span>
+            </div>
+            <div class="each-platform hbo-max item">
+                <i class="fa-solid fa-helicopter-symbol"></i>
+                <span>HBO Max</span>
+            </div>
+        </div>
+        <div class="category each-item" >
+            <span class="menu-items">Category</span>
+            <div class="each-category item" >
+                <i class="fa-solid fa-tv tv-shows"></i>
+                <span>TV Shows</span>
+            </div>
+            <div class="each-category movies item">
+                <i class="fa-solid fa-clapperboard"></i>
+                <span>Movies</span>
+            </div>
+            <div class="each-category item">
+                <i class="fa-solid fa-film"></i>
+                <span>Short movies</span>
+            </div>
+        </div>
+        <div class="account each-item">
+            <span class="menu-items">Account</span>
+            <div class="account item">
+                <i class="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </div>
+            <div class="logout item">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span>Logout</span>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <!--2nd column-->
+     <div class="actual-data box" style="flex-basis: 1700px;">
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#" class="active-nav">Movies</a></li>
+            <li><a href="#" >Shows</a></li>
+            <li><a href="#" >Short Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="cover-img">
+        <img src="../img/movies/nowayhome.webp" alt="">
+        <div class="cover-info">
+            <h3 class="cober-title">Spiderman : No way home</h3>
+            <span>IMDB : 9.5</span>
+        </div>
+    </div>
+
+    </div>
+     
+     <!--3rd column-->
+     <div class="side-category box">
+       <div class="search-section">
+        <i class="fa-solid fa-magnifying-glass search-icon" ></i>
+        <input type="text" placeholder="Search" >
+       </div>
+
+       <div class="sidebar-list">
+        <div class="trending-list">
+            <span class="menu-items">Trending</span>
+            <div class="each-movie-item">
+                <div class="trending-img">
+                    <img src="../img/movies/batman.jpg" alt="">
+                </div>
+              <div class="trending-info">
+                <a href="#" style="text-decoration:none;color:#000;"><h4>The Batman</h4></a>
+                <span>Action</span>
+                <h6>IMDB : <span class="movie-review">8.5</span></h6>
+              </div>
+            </div>
+            <div class="each-movie-item">
+                <div class="trending-img">
+                    <img src="../img/movies/dune.jpeg" alt="">
+                </div>
+                <div class="trending-info">
+                    <a href="#" style="text-decoration:none;color:#000;"><h4>Dune</h4></a>
+                    <span>Sci-fi</span>
+                    <h6>IMDB : <span class="movie-review">7.5</span></h6>
+                  </div>
+                  
+            </div>
+            <button class="btn-more">See more</button>
+        </div>
+        <div class="most-anticipated">
+            <span class="menu-items">Most anticipated</span>
+            <div class="anticipated-list">
+                <div class="each-anticipated-movie">
+                    <div class="trending-img">
+                        <img src="../img/movies//Doctor_Strange_Poster_2.webp" alt="">
+                    </div>
+                    <div class="trending-info">
+                        <a href="#" style="text-decoration:none;color:#000;"><h4>Doctor Strange : Multiverse of madness</h4></a>
+                        <span>Sci-fi</span>
+                        <h6>Release date : <span class="movie-date">May 6, 2022 </span></h6>
+                      </div>
+                </div>
+
+                <div class="each-anticipated-movie">
+                   
+                    <div class="trending-img">
+                        <img src="../img/movies/thor.jpeg" alt="">
+                    </div>
+                    <div class="trending-info">
+                        <a href="#" style="text-decoration:none;color:#000;"><h4>Thor : Love & Thunder</h4></a>
+                        <span>Sci-fi</span>
+                        <h6>Release date : <span class="movie-date">July 8, 2022</span></h6>
+                      </div>
+                </div>
+                <button class="btn-more">See more</button>
+            </div>
+        </div>
+
+       </div>
+
+     </div>
+    </div>
+</body>
+</html>

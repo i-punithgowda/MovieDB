@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#010001;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*Creating 3 flex items*/
+
+.container{
+    background-color: #fffeff;
+    height:900px;
+    width:1700px;
+    border-radius: 8px;
+    display: flex;
+    color:#000;
+    
+}
+
+.container .box{ 
+    border-right:1px solid #ddd;
+    height:100%;
+    width:30%;
+}
+
+.container .box:last-child{
+    border:none;
+}
+
+/*Left flex*/
+
+.container .menu-list h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+}
+
+.container .menu-list .flex-items .each-item{
+    margin-left:15px;
+    margin-bottom: 40px;
+}
+
+.container .menu-list .flex-items .item { 
+margin:20px 40px 0;
+}
+
+.container .menu-list .flex-items .item i{ 
+    margin-right:10px;
+    }
+
+.container .menu-list .flex-items .menu-items{
+    color:grey;
+    font-weight: bold;
+}
+
+.active{
+    color:#ff0000;
+}
+
+/*Right flex*/
+
+.side-category .search-section{
+    height:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.side-category .search-section input{
+    border:1px solid #ddd;
+    outline:none;
+    padding:8px 12px;
+    border-radius: 12px;
+}
+
+.side-category .search-section input::-webkit-input-placeholder{
+    color:#000;
+}
+
+.side-category i{
+    position: relative;
+    left:180px;
+}
+
+.side-category  .menu-items{
+    color:grey;
+    font-weight: bold;
+    margin:10px;
+}
+
+.side-category .sidebar-list .each-movie-item {
+    display:flex;
+    align-items: center;
+    margin:25px;
+}
+
+.side-category .sidebar-list .each-movie-item img{
+height:100px;
+width:75px;
+margin-right:10px;
+}
+
+.btn-more{
+    padding:8px 12px;
+    outline:none;
+    border:none;
+    background-color: #ff0000;
+    color:#fff;
+    font-weight: bold;
+    width:275px;
+    margin-left:30px;
+    margin-bottom: 20px;
+}
+
+.side-category .sidebar-list .each-anticipated-movie img{
+    height:100px;
+    width:75px;
+    margin-right:10px;
+    }
+
+
+.side-category .most-anticipated .each-anticipated-movie {
+    display:flex;
+    align-items: center;
+    margin:25px;
+}
+
+/*Middle flex*/
+
+
+.actual-data nav{
+    display:flex;
+    height:150px;
+    align-items: center;
+    margin-left:30px;
+}
+
+.actual-data nav ul{
+    display:flex;
+}
+
+.actual-data nav ul li{
+    list-style-type:none;
+    margin-right:20px;
+}
+.actual-data nav ul li a{
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+}
+
+.actual-data nav ul .active-nav{
+    color:#000;
+}
+
+.actual-data .cover-img img{
+    width:1000px;
+    height:400px;
+    margin-left:60px;
+    border-radius: 3px;
+}
