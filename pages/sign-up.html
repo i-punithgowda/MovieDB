@@ -5,10 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup | MovieDB 🎥 </title>
     <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <div class="container">
+       <div class="signup-section">
+           <h1 >Sign Up</h1>
+           <p>or signup with </p>
+           <span class="btn"><i class="fa-brands fa-google" ></i> signup with Google</span>
+           <span class="btn"><i class="fa-brands fa-facebook"></i> signup with Facebook</span>
+<br>
+            <div class="form-items">
+                <form>
+                    <input type="text" name="u-name" id="u-name" placeholder="Name">
+                    <input type="text" name="email" id="email" placeholder="Email"> <br/>
+                    <input type="password" name="passwd" id="passwd" placeholder="Password"> 
+                    <input type="text" name="passwd" id="passwd" placeholder="Confirm password"> <br />
+                    <input type="text" name="passwd" id="passwd" placeholder="Phone number"> <br />
+                  <span>
+                    Male : <input type="radio" name="male" id="male" >
+                    Female : <input type="radio" name="female" id="female"><br />
+                  </span>
+                   <input type="checkbox" name="t&c">
+                   <p>I agree to all terms and conditions</p>
+                   <div class="btn-submit">
+                    <i class="fa-solid fa-arrow-right"></i>
+                   </div>
+                </form>
+            </div>
+            <p >Have an account ? <span ><a href="login.html" style="color:#ff0000;text-decoration:none;"> Sign in</a></span></p>
 
+
+       </div>
+       <div class="cover-pic">
+           <img src="../img/signup.png" alt="">
+       </div>
     </div>
 </body>
 </html>

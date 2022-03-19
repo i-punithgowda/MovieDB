@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+background-color: #000;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width:1200px;
+    height:600px;
+    background-color: #f2f2f2;
+    border-radius:20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.container .signup-section{
+    padding:20px;
+}
+
+.container .signup-section h1{
+    color:#ff0000;
+    font-size: 2.5rem;
+}
+
+
+.container .signup-section p{
+    color:#370067;
+    margin: 30px;
+}
+
+.container .signup-section .btn{
+    margin-left:20px;
+    background-color: #eee;
+    border:1px solid #ddd;
+    padding:8px 12px;
+}
+
+
+.container .signup-section .btn i{ 
+    margin-right:10px;
+}
+
+.container .cover-pic img{
+width:600px;
+height:600px;
+}
+
+.container .signup-section .form-items {
+    margin:50px 20px;
+}
+
+.container .signup-section .form-items input{
+    display: inline;
+    border:1px solid #ddd;
+    outline:none;
+    padding:8px 10px;
+    margin:10px 5px;
+}
+
+.container .signup-section .form-items span{
+ margin:0 10px;
+}
+
+.container .signup-section .form-items p{
+    display: inline;
+    margin:0;
+}
+
+.container .signup-section .form-items .btn-submit{
+   background-color: #ff0000;
+   height:50px;
+   width:50px;
+   border-radius: 20px;
+   margin-top:20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#f1f1f1;
+}
