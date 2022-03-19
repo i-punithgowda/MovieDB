@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    background-color: #f1f1f1;
+    color:#333;
+    height:900px;
+    width:1600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:100%;
+padding:30px ;
+height:50px;
+}
+
+.container .header .account{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container .header .account img{
+   border-radius: 50%;
+   margin-right:10px;
+}
+
+.container .header .account span{
+    color:#ff0000;
+    font-weight: bold;
+}
+
+.container .main-content{
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:15%;
+    padding:20px;
+
+}
+
+
+
+.container .main-content .movie-data{
+    height:100%;
+    flex-basis: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container .main-content .trailer{
+    height:100%;
+    flex-basis: 600px;
+    background: #333;
+    color:#f2f2f2;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.container .main-content .movie-data .genre{
+    color:grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container .main-content .movie-data .movie-title{
+    color:#ff0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:10px;
+}
+
+.container .main-content .movie-data .movie-info{
+    color:#000;
+    font-size: 1.5rem;
+    margin:10px;
+    font-weight: bold;
+}
+
+.container .main-content .movie-data .movie-description{
+    color:#000;
+    font-size: 1.2rem;
+    margin:10px;
+    text-align: justify;
+}
+
+.container .main-content .movie-data .movie-review{
+    color:#000;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.container .main-content .movie-data .movie-review .actual-review{
+    color:#000;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left:20px;
+}
+
+
+
+.container .main-content .trailer .trailer-video iframe{
+    height:100%;
+    width:100%;
+}
+
+.container  .cast-section{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+}
+
+.container .movie-cast{
+    width:100%;
+    height:200px;
+    padding:0 40px;
+}
+
+.container .movie-cast .each-cast{
+   margin-left:40px;
+}
+
+.container .movie-cast .each-cast img{
+width:100px;
+height:100px;
+border-radius:50%;
+}
+
+.container .movie-cast{
+    display: flex;
+    text-align: center;
+}
+
+.container .movie-platforms{
+    padding:20px;
+    text-align: center;
+}

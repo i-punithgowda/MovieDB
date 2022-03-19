@@ -19,7 +19,7 @@ align-items: center;
 
 .container{
     background-color: #fffeff;
-    height:900px;
+    height:950px;
     width:1700px;
     border-radius: 8px;
     display: flex;
@@ -51,10 +51,16 @@ align-items: center;
     margin-bottom: 40px;
 }
 
+
 .container .menu-list .flex-items .item { 
-margin:20px 40px 0;
+    margin:20px 40px 0;
 }
 
+.container .menu-list .flex-items .item:hover{
+   color:#ff0000;
+   cursor:pointer;
+
+}
 .container .menu-list .flex-items .item i{ 
     margin-right:10px;
     }
@@ -123,6 +129,16 @@ margin-right:10px;
     margin-bottom: 20px;
 }
 
+
+
+.btn-more:hover{
+    background-color: #f1f1f1;
+    color:#ff0000;
+    cursor: pointer;
+}
+
+
+
 .side-category .sidebar-list .each-anticipated-movie img{
     height:100px;
     width:75px;
@@ -164,9 +180,75 @@ margin-right:10px;
     color:#000;
 }
 
+.actual-data nav ul li a:hover{
+    color:#000;
+}
+
+.cover-img{
+    position: relative;
+}
+
 .actual-data .cover-img img{
     width:1000px;
-    height:400px;
+    height:450px;
     margin-left:60px;
     border-radius: 3px;
+    filter:brightness(50%)
+}
+
+
+
+.cover-img .cover-info{
+    position: absolute;
+    bottom:20px;
+    left:70px;
+    color:#f2f2f2;
+    font-size: 1.6rem;
+}
+
+.actual-data .category-list{
+    padding:20px;
+}
+
+.actual-data .category-list .actual-selected-category{
+    display:flex;
+    justify-content: space-around;
+    overflow-x:scroll;
+  
+}
+
+.actual-data .category-list .category-data{
+margin-left: 20px;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+margin-top:20px;
+}
+
+
+.actual-data .category-list .category-data:first-child{
+    margin-left:200px;
+}
+
+.actual-data .category-list .category-data h3{
+    font-size: 0.9rem;
+}
+
+.actual-data .category-list .category-data span{
+ font-weight: bold;
+ font-size: 0.7rem;  
+ color:#ff0000;
+}
+
+
+
+.actual-data .category-list .category-data img{
+    height:150px;
+    width:150px;
+    margin-bottom: 10px;
+}
+
+.actual-data .category-list .actual-selected-category .category-data a{
+    text-decoration: none;
+    color:#000;
 }
