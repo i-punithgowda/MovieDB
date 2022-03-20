@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#000;
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.imdb{
+    color:#ff0000;
+    font-weight: bold;
+}
+
+img{
+    width:100px ;height:100px;
+}
+
+.container{
+    background-color: aliceblue;
+    width:1700px;
+    
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.container .trending-section{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.container .trending-list{
+    display:flex;
+    flex-direction: column;
+    padding-top:10px;
+    overflow-x:scroll;
+}
+
+.container .trending-section h1{ 
+  font-size: 1.2rem;
+  color:grey;
+  font-weight:bold;
+}
+
+.container .content-flex{
+    display: flex;
+}
+
+.container .each-content{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin-right:20px;
+}
+
+.container .anticipated-section{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .anticipated-list{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.container .anticipated-section h1{
+    color:grey;
+    font-size:1.3rem;
+   font-weight: bold;
+}
+
+.container .upcoming-section{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+.container .upcoming-list{
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
+
+.container .upcoming-section h1{
+    color:grey;
+    font-weight: bold;
+    font-size:1.3rem;
+}
