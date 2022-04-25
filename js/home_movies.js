@@ -3,10 +3,7 @@ var coverLink=document.querySelector('.cover-img a')
 var coverPic=document.querySelector('.cover-img img')
 var coverRating=document.querySelector('.cover-img .cover-rating')
 var coverTitle=document.querySelector('.cover-img .cover-title')
-var selectedCategory="";
-
-
-
+var actual_selected_category=document.querySelector('.actual-selected-category')
 
 
 item.forEach((link)=>{
@@ -27,7 +24,7 @@ item.forEach((link)=>{
             renderPlatformData('disney')
         }else if(link.classList.contains('hbo')){
             renderPlatformData('hbo')
-        }else if(link.classList.contains('hbo')){
+        }else if(link.classList.contains('netflix')){
             renderPlatformData('netflix')
         }
         else if(link.classList.contains('account')){
@@ -42,6 +39,7 @@ item.forEach((link)=>{
 })
 
 function renderGenreData(genre){
+    var mostPopularTemplate='';
     fetch('../js/movie_db.json')
     .then(response=>response.json())
     .then((data)=>{
@@ -56,6 +54,18 @@ function renderGenreData(genre){
         coverLink.href=`movies.html?id=${filteredArray[randomNumber].id}`
         coverRating.innerHTML=filteredArray[randomNumber].review
         coverTitle.innerHTML=filteredArray[randomNumber].name
+        filteredArray.forEach((movie)=>{
+            mostPopularTemplate+=`
+            <div class="category-data">
+                <img src=${movie.image} alt="">
+                <div class="category-data-info">
+                    <a href=movies.html?id=${movie.id}><h3>${movie.name}</h3></a>
+                    <span>IMDB : ${movie.review}</span>
+                </div>
+            </div>
+            `
+        })
+        actual_selected_category.innerHTML=mostPopularTemplate;
     })
 }
 

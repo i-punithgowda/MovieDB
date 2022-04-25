@@ -183,6 +183,89 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":""
-    }
+    },
+
+
+    {
+        "id":4,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    } ,
+
+    {
+        "id":4,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    } ,
+
+
+    {
+        "id":4,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    } ,
+
+
+    {
+        "id":4,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    } 
 
     ]}
