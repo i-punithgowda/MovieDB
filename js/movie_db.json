@@ -1,0 +1,188 @@
+{
+    "movies" :[
+    {
+        "id":1,
+        "name":"Spiderman : No way home",
+        "genre":"sci-fi",
+        "director":"Jon Watts",
+        "producer":"Marvel Studios",
+        "review":9.1,
+        "cast":{
+            "Tom Holland":["Peter 1","../img/cast/tom.jpeg"],
+            "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
+            "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
+            "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
+            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
+            "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/nowayhome.jpg",
+        "thumbnail":"../img/movies/thumbnail-nwh.jpg"
+    } ,
+
+    {
+        "id":2,
+        "name":"Iron man",
+        "genre":"sci-fi",
+        "director":"Jon favereau",
+        "producer":"Marvel Studios",
+        "review":8.2,
+        "cast":{
+            "Robert Downey JR.":["Tony Stark/Ironman1","../img/cast/rdj.jpeg"],
+            "Gweyneth Paltrow":["Pepper Potts","../img/cast/pepper.jpg"],
+            "Jon Favreau":["Happy Hogan","../img/cast/tobey.jpg"],
+            "Terrence Howard":["James Rhodes","../img/cast/zendaya.jpeg"],
+            "Jeff Bridges":["Iron Monger","../img/cast/jacob.jpg"],
+            "Paul Bettany":["J.A.R.V.I.S","../img/cast/benedict.jpg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/im1.jpg",
+        "thumbnail":""
+    },
+
+    {
+        "id":3,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    },
+
+    {
+        "id":4,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    } ,
+
+
+    {
+        "id":5,
+        "name":"KGF 2",
+        "genre":"crime",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    } ,
+
+    {
+        "id":6,
+        "name":"KGF 2",
+        "genre":"action",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    },
+
+    {
+        "id":7,
+        "name":"KGF 2",
+        "genre":"crime",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    },
+
+    {
+        "id":9,
+        "name":"KGF 2",
+        "genre":"romance",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    },
+
+    {
+        "id":3,
+        "name":"KGF 2",
+        "genre":"romance",
+        "director":"Prashanth neel",
+        "producer":"Hombale films",
+        "review":8.5,
+        "cast":{
+            "Yash":["Rocky","../img/cast/rdj.jpeg"],
+            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
+            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
+            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+        },
+        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "platforms":["Disney+ , hbo , netflix"],
+        "description":"",
+        "image":"../img/movies/kgf.jpg",
+        "thumbnail":""
+    }
+
+    ]}

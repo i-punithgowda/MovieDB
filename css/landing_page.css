@@ -87,6 +87,10 @@ border-radius: 20px;
 width:120px;
 }
 
+.signup-container button:hover{
+cursor:pointer;
+}
+
 .guest-link{
     text-decoration:none;
     margin-top:30px;
