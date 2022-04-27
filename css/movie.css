@@ -84,7 +84,10 @@ height:50px;
     color:grey;
     font-size: 1.5rem;
     font-weight: bold;
+    text-transform: capitalize;
 }
+
+
 
 .container .main-content .movie-data .movie-title{
     color:#ff0000;
@@ -149,7 +152,8 @@ height:50px;
 width:100px;
 height:100px;
 margin-bottom: 10px;
-background-size: contain;
+background-size: cover;
+
 }
 
 .container .movie-cast{
@@ -161,3 +165,4 @@ background-size: contain;
     padding:20px;
     text-align: center;
 }
+

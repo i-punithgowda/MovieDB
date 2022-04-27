@@ -53,7 +53,7 @@ function renderGenreData(genre){
 
         var randomNumber=Math.floor(Math.random()*filteredArray.length)
         coverPic.src=filteredArray[randomNumber].image
-        coverLink.href=`movies.html?id=${filteredArray[randomNumber].id}`
+        coverLink.href=`movies.html?id=${filteredArray[randomNumber].id}&type=movie`
         coverRating.innerHTML=filteredArray[randomNumber].review
         coverTitle.innerHTML=filteredArray[randomNumber].name
         filteredArray.forEach((movie)=>{

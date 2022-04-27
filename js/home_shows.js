@@ -46,14 +46,14 @@ function renderGenreData(genre){
     fetch('../js/shows_db.json')
     .then(response=>response.json())
     .then((data)=>{
-        var movies=data.movies
+        var movies=data.shows
         var filteredArray= movies.filter((movie)=>{
             return movie.genre===genre
         })
 
         var randomNumber=Math.floor(Math.random()*filteredArray.length)
         coverPic.src=filteredArray[randomNumber].image
-        coverLink.href=`movies.html?id=${filteredArray[randomNumber].id}`
+        coverLink.href=`movies.html?id=${filteredArray[randomNumber].id}&type=show`
         coverRating.innerHTML=filteredArray[randomNumber].review
         coverTitle.innerHTML=filteredArray[randomNumber].name
         filteredArray.forEach((movie)=>{
@@ -90,13 +90,6 @@ function renderGenreData(genre){
         })
 
 
-        
-        
-       
-
-        
-
-
 
 
         actual_selected_category.innerHTML=mostPopularTemplate;
@@ -110,7 +103,7 @@ function renderPlatformData(platform){
     fetch('../js/shows_db.json')
     .then(response=>response.json())
     .then((data)=>{
-        var movies=data.movies
+        var movies=data.shows
         var filteredArray=movies.filter((movie)=>{
            return movie.platforms==platform
         })
