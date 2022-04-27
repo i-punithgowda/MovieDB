@@ -174,7 +174,7 @@
     },
 
     {
-        "id":3,
+        "id":8,
         "name":"KGF 2",
         "genre":"romance",
         "director":"Prashanth neel",
@@ -196,7 +196,7 @@
 
 
     {
-        "id":4,
+        "id":10,
         "name":"KGF 2",
         "genre":"action",
         "director":"Prashanth neel",
@@ -217,7 +217,7 @@
     } ,
 
     {
-        "id":4,
+        "id":11,
         "name":"KGF 2",
         "genre":"action",
         "director":"Prashanth neel",
@@ -239,7 +239,7 @@
 
 
     {
-        "id":4,
+        "id":12,
         "name":"KGF 2",
         "genre":"action",
         "director":"Prashanth neel",
@@ -261,7 +261,7 @@
 
 
     {
-        "id":4,
+        "id":13,
         "name":"KGF 2",
         "genre":"action",
         "director":"Prashanth neel",
@@ -279,53 +279,6 @@
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
         "Trending":12
-    } ,
-
-
-    {
-        "id":13,
-        "name":"Spiderman : No way home",
-        "genre":"sci-fi",
-        "director":"Jon Watts",
-        "producer":"Marvel Studios",
-        "review":9.1,
-        "cast":{
-            "Tom Holland":["Peter 1","../img/cast/tom.jpeg"],
-            "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
-            "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
-            "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
-            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
-            "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
-        },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
-        "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/nowayhome.jpg",
-        "thumbnail":"../img/movies/thumbnail-nwh.jpg",
-        "Trending":16
-    } ,
-    {
-        "id":14,
-        "name":"Spiderman : No way home",
-        "genre":"sci-fi",
-        "director":"Jon Watts",
-        "producer":"Marvel Studios",
-        "review":9.1,
-        "cast":{
-            "Tom Holland":["Peter 1","../img/cast/tom.jpeg"],
-            "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
-            "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
-            "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
-            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
-            "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
-        },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
-        "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/nowayhome.jpg",
-        "thumbnail":"../img/movies/thumbnail-nwh.jpg",
-        "Trending":14
-    }
-
+    } 
 
     ]}
