@@ -152,6 +152,12 @@ margin-right:10px;
     margin:25px;
 }
 
+.side-category .most-anticipated .each-anticipated-movie .movie-producer{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color:#000;
+}
+
 /*Middle flex*/
 
 

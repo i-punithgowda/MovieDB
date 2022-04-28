@@ -12,7 +12,7 @@
             "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
             "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
             "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
-            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
+            "Jacob Batalon":["Ned leeds","../img/cast/jacob.jpg"],
             "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
         },
         "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
@@ -20,7 +20,8 @@
         "description":"Peter Parker seeks Doctor Strange's help to make people forget about Spiderman's identity. However, when the spell he casts gets corrupted, several unwanted guests enter their universe.",
         "image":"../img/movies/nowayhome.jpg",
         "thumbnail":"../img/movies/thumbnail-nwh.jpg",
-        "Trending":1
+        "Trending":1,
+        "releaseDate":"16-04-2022"
     } ,
 
     {
@@ -40,10 +41,11 @@
         },
         "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
         "platforms":"Disney",
-        "description":"",
+        "description":"Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures, it is the first film in the Marvel Cinematic Universe (MCU).",
         "image":"../img/movies/im1.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":2
+        "Trending":2,
+        "releaseDate":""
     },
 
     {
@@ -64,7 +66,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":3
+        "Trending":3,
+        "releaseDate":"16-04-2022"
     },
 
     {
@@ -85,7 +88,8 @@
         "description":"The blood-soaked land of Kolar Gold Fields has a new overlord now, Rocky, whose name strikes fear in the heart of his foes. His allies look up to him as their Savior, the government sees him as a threat, and his enemies are clamouring for revenge.",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":4
+        "Trending":4,
+        "releaseDate":"13-04-2022"
     } ,
 
 
@@ -107,7 +111,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":5
+        "Trending":5,
+        "releaseDate":""
     } ,
 
     {
@@ -128,7 +133,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":5
+        "Trending":5,
+        "releaseDate":""
     },
 
     {
@@ -149,7 +155,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":6
+        "Trending":6,
+        "releaseDate":""
     },
 
     {
@@ -170,7 +177,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":7
+        "Trending":7,
+        "releaseDate":""
     },
 
     {
@@ -191,7 +199,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":8
+        "Trending":8,
+        "releaseDate":""
     },
 
 
@@ -213,7 +222,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":9
+        "Trending":9,
+        "releaseDate":""
     } ,
 
     {
@@ -234,7 +244,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":10
+        "Trending":10,
+        "releaseDate":"16-04-2022"
     } ,
 
 
@@ -256,7 +267,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":11
+        "Trending":11,
+        "releaseDate":"16-04-2022"
     } ,
 
 
@@ -278,7 +290,8 @@
         "description":"",
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":12
+        "Trending":12,
+        "releaseDate":"16-04-2022"
     } ,
 
 
@@ -302,7 +315,8 @@
         "description":"",
         "image":"../img/movies/nowayhome.jpg",
         "thumbnail":"../img/movies/thumbnail-nwh.jpg",
-        "Trending":16
+        "Trending":16,
+        "releaseDate":"16-12-2021"
     } ,
     {
         "id":16,
@@ -324,7 +338,8 @@
         "description":"",
         "image":"../img/movies/nowayhome.jpg",
         "thumbnail":"../img/movies/thumbnail-nwh.jpg",
-        "Trending":14
+        "Trending":14,
+        "releaseDate":""
     }
 
 

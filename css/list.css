@@ -20,7 +20,13 @@ body{
 }
 
 img{
-    width:100px ;height:100px;
+    width:200px ;
+    height:200px;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
 }
 
 .container{
@@ -36,7 +42,8 @@ img{
 .container .trending-section{
     display:flex;
     flex-direction: column;
-    padding:20px;
+    padding:30px;
+    margin-top:20px;
 }
 
 .container .trending-list{
@@ -59,8 +66,9 @@ img{
 .container .each-content{
     display:flex;
     flex-direction: column;
-    padding:20px;
     margin-right:20px;
+    text-align:center;
+    width:400px;
 }
 
 .container .anticipated-section{
@@ -78,21 +86,7 @@ img{
     color:grey;
     font-size:1.3rem;
    font-weight: bold;
+   padding:20px;
 }
 
-.container .upcoming-section{
-    display:flex;
-    flex-direction:column;
-    padding:20px;
-}
 
-.container .upcoming-list{
-    overflow-x:scroll;
-    overflow-y:hidden;
-}
-
-.container .upcoming-section h1{
-    color:grey;
-    font-weight: bold;
-    font-size:1.3rem;
-}
