@@ -11,6 +11,7 @@ const review=document.querySelector('.actual-review')
 const trailer=document.querySelector('#trailer-frame')
 const movieCast=document.querySelector('.movie-cast')
 const platforms=document.querySelector('.platform-icons')
+const btnReview=document.querySelector('.btn-custom')
 
 
 function renderData(){
@@ -90,10 +91,6 @@ if(type=="movie"){
         }else if(mov.platforms==='hbo'){
             platforms.innerHTML='<img src="../img/hbo.png"/>'
         }
-
-
-      
-
       movieCast.innerHTML=castTemplate
 
     })
@@ -101,5 +98,10 @@ if(type=="movie"){
 
 }
 }
+
+btnReview.addEventListener('click',()=>{
+    window.location.href=`../pages/review.html?id=${id}&type=${type}`
+})
+
 
 renderData()

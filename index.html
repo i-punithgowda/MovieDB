@@ -17,7 +17,7 @@
                <div class="signup-container">
                 <form action="pages/login.html">
                     <input type="text" name="email" id="form-input" placeholder="Email address" />
-                    <a href="pages/login.html"><button class="btn-signup">SignIn</button></a>
+                    <a onclick="redirect()"><button class="btn-signup">SignIn</button></a>
                 </form>
                </div>
                <a href="pages/home.html" class="guest-link">Login as guest!</a>
@@ -28,5 +28,11 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function redirect(){
+            window.location.href=`pages/login.html?email=${document.getElementById("form-input").value}`
+        }
+    </script>
 </body>
 </html>

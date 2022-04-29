@@ -20,7 +20,7 @@
                 <form>
                     <input type="text" name="email" id="email" placeholder="Email" style="display:block;width:100%;margin:0;"> <br/>
                     <input type="password" name="passwd" id="passwd" placeholder="Password" style="display:block;width:100%;margin:0;"> 
-                   <div class="btn-submit">
+                   <div class="btn-submit" onclick="validate()">
                     <i class="fa-solid fa-arrow-right"></i>
                    </div>
                 </form>
@@ -33,5 +33,33 @@
            <img src="../img/login.png" alt="">
        </div>
     </div>
+    <script>
+        var url=window.location.search
+        var param= new URLSearchParams(url)
+        var email=param.get('email')
+        document.getElementById("email").value=email
+
+        function validate(){
+            var count=0
+            var email=document.getElementById("email").value
+            var password=document.getElementById("passwd").value
+            fetch('../js/users.json')
+            .then(response=>response.json())
+            .then((data)=>{
+                var users=data.users
+             for(var i=0;i<users.length;i++){
+                 if(email==users[i].email && password==users[i].password){
+                     count=1
+                 }
+             }
+              if(count==1){
+                  alert("Welcome ! login succesful")
+                  window.location.href="home.html"
+              }else{
+                  alert("Either username or password is wrong!!")
+              }
+            })
+        }
+    </script>
 </body>
 </html>

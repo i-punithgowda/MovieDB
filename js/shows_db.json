@@ -21,7 +21,8 @@
         "image":"../img/movies/nowayhome.jpg",
         "thumbnail":"../img/movies/thumbnail-nwh.jpg",
         "Trending":1,
-        "releaseDate":"16-04-2022"
+        "releaseDate":"16-04-2022",
+        "images":[""]
     } ,
 
     {

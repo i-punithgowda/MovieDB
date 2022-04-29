@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review | MovieDB 🎥</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #000;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .main-container{
+        background-color:#f1f1f1;
+        margin-top:20px;
+        padding:10px;
+        
+    }
+
+    .img-carousel{
+        width:500px;
+        height:400px;
+        filter:brightness(80%)
+    }
+
+
+    .review-star{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid w-75  main-container rounded">
+                <div class="header row w-100">
+                    <div class="logo col">
+                        <h5 class="logo font-weight-bold"><span><i class="fa-solid fa-clapperboard"></i></span>&nbsp;MovieDB </h5>
+                    </div>
+                    <div class="account col-2">
+                        <img src="../img/profile.png" width="50px" height="50px" alt="" id="account-img">
+                        <span>Guest user</span>
+                    </div>
+                </div>
+
+                <br>
+
+               <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      
+                      
+                    </div>
+                  </div>
+               </div>
+
+               <div class="container">
+                   <h3 class="title text-center mt-2 text-danger mov-name font-weight-bold"></h3>
+               </div>
+
+
+               <div class="form mt-2">
+               <div class="container">
+                <div class="form-group">
+                    <input type="email" class="form-control w-100 " id="actual-review" style="padding:100px 0;border:1px solid #333;" placeholder="Write your review..." id="email">
+                    <div class="indicator d-flex justify-content-end">
+                        <span class="length-review text-right text-danger">0</span>/100
+                    </div>
+                    <div class="container text-center mt-3">
+                    <i class="fa-solid fa-star review-star 1"></i>
+                    <i class="fa-solid fa-star review-star 2"></i>
+                    <i class="fa-solid fa-star review-star 3"></i>
+                    <i class="fa-solid fa-star review-star 4"></i>
+                    <i class="fa-solid fa-star review-star 5"></i>
+                    </div>
+                    
+                </div>
+                <div class="submit-btn d-flex justify-content-end">
+                    <button class="btn btn-danger submit">Submit</button>
+                </div>
+               </div>
+               </div>
+
+           
+                
+
+      </div>
+    
+
+
+
+      <script src="../js/review.js"></script>
+      
+
+</body>
+</html>

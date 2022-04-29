@@ -1,0 +1,12 @@
+{
+    "users":[
+        {
+            "email":"impuni007@gmail.com",
+            "password":"punith123"
+        },
+        {
+            "email":"meghakrishna@gmail.com",
+            "password":"megha123"
+        }
+    ]
+}

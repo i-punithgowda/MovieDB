@@ -116,6 +116,28 @@ height:50px;
     font-size: 1.4rem;
 }
 
+.container .main-content .movie-data .add-review{
+    margin:20px;
+}
+
+.container .main-content .movie-data .add-review .btn-custom{
+   padding:8px 12px;
+   background-color:#ff0000;
+   border:none;
+   outline:none;
+   color:#f2f2f2;
+   border-radius: 3px;
+   font-weight: bold;
+}
+
+.container .main-content .movie-data .add-review .btn-custom:active{
+    background-color:#333;
+    color:#f2f2f2;
+    
+ }
+ 
+
+
 .container .main-content .movie-data .movie-review .actual-review{
     color:#000;
     font-weight: bold;

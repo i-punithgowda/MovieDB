@@ -89,7 +89,8 @@
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
         "Trending":4,
-        "releaseDate":"13-04-2022"
+        "releaseDate":"13-04-2022",
+        "images":["../img/movies/kgf.jpg","../img/moviearray/kgf2-2.jpg","../img/moviearray/kgf2-3.webp","../img/moviearray/kgf2-4.jpg"]
     } ,
 
 
