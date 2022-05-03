@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style-type:none;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#333;
+}
+
+.container{
+    background-color:#f2f2f2;
+    color:#333;
+    height:800px;
+    width:1500px;
+    border-radius: 6px;
+   position: relative;
+}
+
+.container .nav-bar{
+    background-color: #ff0000;
+    padding:20px;
+    display: flex;
+}
+
+.container .nav-bar .nav-items{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+}
+
+.container .nav-bar .img-logo{
+    width:600px;
+}
+
+.container .nav-bar .nav-items li a{
+    color:#f2f2f2;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container .nav-bar .nav-items .search{
+    position: relative;
+    left:90%;
+}
+
+.container .nav-bar .nav-items .search-box{
+    border:none;
+    outline:none;
+    padding:8px 12px;
+    border-radius:8px;
+}
+
+
+.container .trending{
+    padding:10px;
+    background-color: #000;
+    color:#f2f2f2;
+    font-weight: bold;
+}
+.container .trending ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container .trending ul li:first-child{
+    display:inline-block;
+    width:200px;
+    color:yellow
+}
+
+.container .trending ul li:nth-child(2n){
+    width:100%;
+}
+
+
+.container .container-info{
+    padding:25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .container-info .contact{
+    font-size: 1.2rem;
+}
+
+.container .container-info .contact .contact-info{
+ margin-top:30px;
+ font-weight: normal;   
+}
+
+.container .container-info .contact .contact-info h3{
+    margin-top:20px  
+   }
+
+   .container .container-info .contact .contact-info ul {
+       display:flex;
+       padding:20px;
+   }
+   .container .container-info .contact .contact-info ul li{
+    margin-left:20px;
+   }
+
+
+
+.container .about h3{
+color:#ff0000;
+}
+
+.container .about p{
+    width:500px;
+    margin-top:20px;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.container .critic-title{
+    padding:20px;
+}
+
+.container .critic-data{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+
+.container .copyright{
+    background-color: #000;
+    padding:20px;
+    text-align: center;
+    color:#f2f2f2;
+    font-weight: bold;
+    margin-top:60px;
+}

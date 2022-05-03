@@ -218,7 +218,7 @@ margin-right:10px;
 
 .actual-data .category-list .actual-selected-category{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow-x:scroll;
   
 }
@@ -233,7 +233,7 @@ margin-top:20px;
 
 
 .actual-data .category-list .category-data:first-child{
-    margin-left:200px;
+    
 }
 
 .actual-data .category-list .category-data h3{

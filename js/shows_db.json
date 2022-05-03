@@ -12,17 +12,17 @@
             "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
             "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
             "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
-            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
+            "Jacob Batalon":["Ned leeds","../img/cast/jacob.jpg"],
             "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
         },
         "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
         "platforms":"Netflix",
         "description":"Peter Parker seeks Doctor Strange's help to make people forget about Spiderman's identity. However, when the spell he casts gets corrupted, several unwanted guests enter their universe.",
-        "image":"../img/movies/nowayhome.jpg",
+        "image":"../img/movies/nwhCover.jpg",
         "thumbnail":"../img/movies/thumbnail-nwh.jpg",
         "Trending":1,
         "releaseDate":"16-04-2022",
-        "images":[""]
+        "images":["../img/movies/nwhCover.jpg","../img/moviearray/nwh1.jpg","../img/moviearray/nwh2.jpg","../img/moviearray/nwh3.jpg","../img/moviearray/nwh4.jpg","../img/moviearray/nwh5.jpg","../img/moviearray/nwh6.jpg"]
     } ,
 
     {
@@ -33,42 +33,43 @@
         "producer":"Marvel Studios",
         "review":8.2,
         "cast":{
-            "Robert Downey JR.":["Tony Stark/Ironman1","../img/cast/rdj.jpeg"],
-            "Gweyneth Paltrow":["Pepper Potts","../img/cast/pepper.jpg"],
-            "Jon Favreau":["Happy Hogan","../img/cast/tobey.jpg"],
-            "Terrence Howard":["James Rhodes","../img/cast/zendaya.jpeg"],
-            "Jeff Bridges":["Iron Monger","../img/cast/jacob.jpg"],
-            "Paul Bettany":["J.A.R.V.I.S","../img/cast/benedict.jpg"]
+            "Robert Downey JR.":["Tony Stark/Ironman1",""],
+            "Gweyneth Paltrow":["Pepper Potts",""],
+            "Jon Favreau":["Happy Hogan",""],
+            "Terrence Howard":["James Rhodes",""],
+            "Jeff Bridges":["Iron Monger",""],
+            "Paul Bettany":["J.A.R.V.I.S",""]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/8ugaeA-nMTc",
         "platforms":"Disney",
         "description":"Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures, it is the first film in the Marvel Cinematic Universe (MCU).",
-        "image":"../img/movies/im1.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":2,
-        "releaseDate":""
+        "image":"../img/moviearray/ironman1.jpg",
+        "thumbnail":"../img/movies/ironman1.jpg",
+        "Trending":16,
+        "releaseDate":"2008",
+        "images":["../img/moviearray/ironman1.jpg","../img/moviearray/ironman2.jpg"]
     },
 
     {
         "id":3,
-        "name":"KGF 2",
+        "name":"The batman",
         "genre":"action",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
+        "director":"Matt Reevs",
+        "producer":"Warner Bros",
+        "review":7.7,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Robert Pattinson":["Bruce Wayne","../img/cast/rdj.jpeg"],
+            "Zoe Kravitz":["Selina kyle","../img/cast/pepper.jpg"],
+            "Paul Dano":["Riddler","../img/cast/tobey.jpg"],
+            "Andy Serkis":["Alfred","../img/cast/zendaya.jpeg"]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/mqqft2x_Aa4",
         "platforms":"hbo",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+        "image":"../img/movies/batmanCover.jpg",
+        "thumbnail":"../img/movies/batman.jpg",
         "Trending":3,
-        "releaseDate":"16-04-2022"
+        "releaseDate":"04-03-2022"
     },
 
     {
@@ -90,258 +91,329 @@
         "image":"../img/movies/kgf.jpg",
         "thumbnail":"../img/movies/thumbnail-kgf.jpg",
         "Trending":4,
-        "releaseDate":"13-04-2022"
+        "releaseDate":"13-04-2022",
+        "images":["../img/movies/kgf.jpg","../img/moviearray/kgf2-2.jpg","../img/moviearray/kgf2-3.webp","../img/moviearray/kgf2-4.jpg"]
     } ,
 
-
-    {
-        "id":5,
-        "name":"KGF 2",
-        "genre":"crime",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
-        "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
-        },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
-        "platforms":"hbo",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
-        "Trending":5,
-        "releaseDate":"16-04-2022"
-    } ,
 
     {
         "id":6,
-        "name":"KGF 2",
+        "name":"Dune",
         "genre":"action",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
+        "director":"Denis Villeneuve",
+        "producer":"Warner Bros",
+        "review":9.5,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Timothée Chalamet":["Paul Atreides","../img/cast/rdj.jpeg"],
+            "Zendaya":["Chani","../img/cast/pepper.jpg"],
+            "Jason Momoa":["Duncan Idaho","../img/cast/tobey.jpg"],
+            "Oscar Issac":["Duke Leto Atreides","../img/cast/zendaya.jpeg"]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
-        "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "trailer":"https://www.youtube.com/embed/8g18jFHCLXk",
+        "platforms":"hbo",
+        "description":"A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+        "image":"../img/movies/duneCover.jpg",
+        "thumbnail":"../img/movies/dune.jpeg",
         "Trending":5,
-        "releaseDate":""
-    },
+        "releaseDate":"22-10-2021",
+        "images":["../img/moviearray/dune1.jpg","../img/moviearray/dune2.jpg"]
+
+    } ,
 
     {
         "id":7,
-        "name":"KGF 2",
-        "genre":"crime",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
+        "name":"RRR",
+        "genre":"action",
+        "director":"SSR",
+        "producer":"DVV Entertainment",
+        "review":8.4,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Ram Charam":["Alluri Sitaram","../img/cast/rdj.jpeg"],
+            "NTR":["Komaram bheem","../img/cast/pepper.jpg"],
+            "Alia bhat":["Sita","../img/cast/tobey.jpg"],
+            "Olivia Morris":["Jennifer","../img/cast/zendaya.jpeg"]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/NgBoMJy386M",
         "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"A tale of two legendary revolutionaries and their journey far away from home. After their journey they return home to start fighting back against British colonialists in the 1920s.",
+        "image":"../img/movies/RRRCover.jpg",
+        "thumbnail":"../img/movies/RRR.jpg",
+        "Trending":5,
+        "releaseDate":"2022",
+        "images":["../img/movies/RRRCover.jpg","../img/moviearray/rrr1.jpg","../img/moviearray/rrr2.jpg"]
+    },
+
+    {
+        "id":8,
+        "name":"The dark knight",
+        "genre":"action",
+        "director":"Christopher Nolan",
+        "producer":"Warner Bros",
+        "review":9.2,
+        "cast":{
+            "Chrstian Bale":["Bruce Wayne","../img/cast/rdj.jpeg"],
+            "Heath Ledger":["Joker","../img/cast/pepper.jpg"],
+            "Micheal Caine":["Alfred","../img/cast/tobey.jpg"]
+        },
+        "trailer":"https://www.youtube.com/embed/LDG9bisJEaI",
+        "platforms":"Netflix",
+        "description":"After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
+        "image":"../img/movies/tdkCover.jpg",
+        "thumbnail":"../img/movies/tdk.jpg",
         "Trending":6,
-        "releaseDate":""
+        "releaseDate":"2008",
+        "images":["../img/moviearray/tdk1.jpg","../img/moviearray/tdk2.jpg"]
     },
 
     {
         "id":9,
-        "name":"KGF 2",
-        "genre":"romance",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
+        "name":"Fast and furious 7",
+        "genre":"action",
+        "director":"James Wan",
+        "producer":"Universal studios",
         "review":8.5,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Vin Disel":["Dominic Torreto","../img/cast/rdj.jpeg"],
+            "Paul Walker":["Brian O' Conner","../img/cast/pepper.jpg"],
+            "Dwayne Johnson":["Luke Hobbs","../img/cast/tobey.jpg"],
+            "Jaoson Sthatham":["Deckard Shaw","../img/cast/zendaya.jpeg"]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/pphrW5spaug",
         "platforms":"hbo",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"Dominic and his family are caught in a quagmire when Shaw's brother seeks bloody revenge. They must not only deal with their enemy but also save a crucial programme from falling into the wrong hands.",
+        "image":"../img/moviearray/fast1.jpg",
+        "thumbnail":"../img/movies/fast.jpg",
         "Trending":7,
-        "releaseDate":"16-04-2022"
+        "releaseDate":"2017",
+        "images":["../img/moviearray/fast1.jpg","../img/moviearray/fast2.jpg"]
     },
 
     {
         "id":10,
-        "name":"KGF 2",
-        "genre":"romance",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
+        "name":"Godfather",
+        "genre":"crime",
+        "director":"Francis Ford Coppolal",
+        "producer":"Albert S",
+        "review":9.2,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Al Pacino":["Micheal Corleone",""],
+            "Marlon Brando":["Don vito Corleone",""]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/UaVTIH8mujA",
         "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+        "image":"../img/movies/gfCover.jpg",
+        "thumbnail":"../img/movies/gf.jpg",
         "Trending":8,
-        "releaseDate":""
+        "releaseDate":"1972",
+        "images":["../img/moviearray/gf1.jpg","../img/movies/gfCover.jpg"]
     },
 
 
     {
         "id":11,
-        "name":"KGF 2",
-        "genre":"action",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
+        "name":"Pulp fiction",
+        "genre":"crime",
+        "director":"Quentin Tarantino",
+        "producer":"Jersey films",
+        "review":8.9,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "John Travolta":["Vincent Vega",""],
+            "Samuel L Jackson":["Jules Winnfield",""]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/tGpTpVyI_OQ",
         "platforms":"hbo",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"In the realm of underworld, a series of incidents intertwines the lives of two Los Angeles mobsters, a gangster's wife, a boxer and two small-time criminals.",
+        "image":"../img/movies/pfCover.png",
+        "thumbnail":"../img/movies/pf.jpg",
         "Trending":9,
-        "releaseDate":""
+        "releaseDate":"1994",
+        "images":["../img/moviearray/pf1.jpg","../img/movies/pfCover.jpg"]
+
     } ,
 
     {
         "id":12,
-        "name":"KGF 2",
-        "genre":"action",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
-        "review":8.5,
+        "name":"Joker",
+        "genre":"crime",
+        "director":"Todd Philips",
+        "producer":"Warner Bros",
+        "review":8.4,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Joaquin Pheonix":["Joker",""],
+            "Rober De Niro":["Murray Franklin",""]
+            
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/ueBcdUPzweY",
         "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"Arthur Fleck, a party clown, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of crime and chaos.",
+        "image":"../img/movies/jokerCover.png",
+        "thumbnail":"../img/movies/joker.jpg",
         "Trending":10,
-        "releaseDate":"16-04-2022"
+        "releaseDate":"2019",
+        "images":["../img/movies/jokerCover.png","../img/moviearray/joker1.jpg"]
     } ,
 
 
     {
         "id":13,
-        "name":"KGF 2",
-        "genre":"action",
+        "name":"Vikram Vedha",
+        "genre":"crime",
         "director":"Prashanth neel",
         "producer":"Hombale films",
         "review":8.5,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "R Madhavan":["Vikram",""],
+            "Vijay Sethupathi":["Vedha",""]
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
+        "trailer":"https://www.youtube.com/embed/1sVr-uWZPjE",
         "platforms":"Disney",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"Vikram, a pragmatic policeman, and his partner Simon are on the hunt to capture Vedha. When Vedha voluntarily surrenders, he offers to tell Vikram a story, throwing Vikram's life into disarray.",
+        "image":"../img/movies/vkCover.jpg",
+        "thumbnail":"../img/movies/vk.jpg",
         "Trending":11,
-        "releaseDate":"16-04-2022"
+        "releaseDate":"2017",
+        "images":["../img/moviearray/vk1.jpg","../img/movies/vkCover.jpg"]
     } ,
 
 
     {
         "id":14,
-        "name":"KGF 2",
-        "genre":"action",
-        "director":"Prashanth neel",
-        "producer":"Hombale films",
+        "name":"Drishyam",
+        "genre":"crime",
+        "director":"Jeethu Joseph",
+        "producer":"Maxlab Cinemas",
         "review":8.5,
         "cast":{
-            "Yash":["Rocky","../img/cast/rdj.jpeg"],
-            "Srinidhi Shetty":["Reena","../img/cast/pepper.jpg"],
-            "Sanjay Dutt":["Adheera","../img/cast/tobey.jpg"],
-            "Raveena Tandon":["Ramika sen","../img/cast/zendaya.jpeg"]
+            "Mohanlal":["George Kutty",""],
+            "Asha Sharat":["IG Geeta",""]
+            
         },
         "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
         "platforms":"Disney",
-        "description":"",
-        "image":"../img/movies/kgf.jpg",
-        "thumbnail":"../img/movies/thumbnail-kgf.jpg",
+        "description":"Georgekutty lives a happy life with his wife and daughters. However, things take a turn for the worse when his family commits an accidental crime, leaving him to protect them and their secret.",
+        "image":"../img/movies/drishyamCover.jpg",
+        "thumbnail":"../img/movies/drishyam.jpg",
         "Trending":12,
-        "releaseDate":"16-04-2022"
+        "releaseDate":"2013",
+        "images":["../img/movies/drishyamCover.jpg","../img/moviearray/drishyam1.jpg"]
     } ,
 
 
     {
         "id":15,
-        "name":"Spiderman : No way home",
-        "genre":"sci-fi",
-        "director":"Jon Watts",
-        "producer":"Marvel Studios",
-        "review":9.1,
+        "name":"Green Mile",
+        "genre":"crime",
+        "director":"Frank Darabont",
+        "producer":"Frank Darabont",
+        "review":8.6,
         "cast":{
-            "Tom Holland":["Peter 1","../img/cast/tom.jpeg"],
-            "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
-            "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
-            "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
-            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
-            "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
+            "Micheal Clark":["John Coffey",""],
+            "Tom Hanks":["Paul Edgecomb",""]
+           
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
-        "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/nowayhome.jpg",
-        "thumbnail":"../img/movies/thumbnail-nwh.jpg",
+        "trailer":"https://www.youtube.com/embed/Ki4haFrqSrw",
+        "platforms":"hbo",
+        "description":"Paul, the head guard of a prison, meets an inmate, John, an African American who is accused of murdering two girls. His life changes drastically when he discovers that John has a special gift.",
+        "image":"../img/movies/gmCover.jpg",
+        "thumbnail":"../img/movies/gm.jpg",
         "Trending":16,
-        "releaseDate":"16-12-2021"
+        "releaseDate":"10-11-1999",
+        "images":["../img/movies/gmCover.jpg","../img/moviearray/gm1.jpg"]
     } ,
     {
         "id":16,
-        "name":"Spiderman : No way home",
+        "name":"Interstellar",
         "genre":"sci-fi",
-        "director":"Jon Watts",
-        "producer":"Marvel Studios",
-        "review":9.1,
+        "director":"Christopher Nolan",
+        "producer":"Paramount pictures",
+        "review":8.6,
         "cast":{
-            "Tom Holland":["Peter 1","../img/cast/tom.jpeg"],
-            "Andrew Garfield":["Peter 3","../img/cast/andrew.jpg"],
-            "Tobey maguire":["Peter 2","../img/cast/tobey.jpg"],
-            "Zendaya":["Michelle Jones","../img/cast/zendaya.jpeg"],
-            "Jacob Batalon":["Peter 3","../img/cast/jacob.jpg"],
-            "Benedict cumberbatch":["Doctor strange","../img/cast/benedict.jpg"]
+            "Matthew McConaughe":["Cooper",""],
+            "Anne Hathaway":["Dr. Brand",""],
+            "Timothée Chalamet ":["Tom",""],
+            "Micheal Caine":["Professor Brand",""]
+            
         },
-        "trailer":"https://www.youtube.com/embed/JfVOs4VSpmA",
-        "platforms":"Netflix",
-        "description":"",
-        "image":"../img/movies/nowayhome.jpg",
-        "thumbnail":"../img/movies/thumbnail-nwh.jpg",
+        "trailer":"https://www.youtube.com/embed/zSWdZVtXT7E",
+        "platforms":"hbo",
+        "description":"When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+        "image":"../img/movies/interstellarCover.jpg",
+        "thumbnail":"../img/movies/interstellar.jpg",
         "Trending":14,
-        "releaseDate":""
+        "releaseDate":"2014",
+        "images":["../img/moviearray/interstellar1.jpg","../img/movies/interstellarCover.jpg"]
+    },
+    {
+        "id":17,
+        "name":"Thor : Love and Thunder",
+        "genre":"sci-fi",
+        "director":"Taika Watiti",
+        "producer":"Marvel Studios",
+        "review":"Not yet released",
+        "cast":{
+            "Chris Hemsworth":["Thor",""],
+            "Natalir Portman":["Jane Foster",""],
+            "Christian Bale ":["Gorr",""],
+            "Tessa Thompson":["Valkyrie",""]
+            
+        },
+        "trailer":"https://www.youtube.com/embed/tgB1wUcmbbw",
+        "platforms":"Disney",
+        "description":"When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+        "image":"../img/movies/thorCover.jpeg",
+        "thumbnail":"../img/movies/thor.jpg",
+        "Trending":15,
+        "releaseDate":"",
+        "images":["../img/moviearray/thor1.jpg","../img/movies/thorCover.jpeg"]
+    },
+    {
+        "id":18,
+        "name":"Doctor strange 2",
+        "genre":"sci-fi",
+        "director":"Sam Raimi",
+        "producer":"Paramount pictures",
+        "review":"Not yet released",
+        "cast":{
+            "Benedict Cumberbatch":["Doctor Stephen Strange",""],
+            "Elizabeth Olsen":["Wanda",""],
+            "Racheal McAdams ":["Christine Palmer",""],
+            "Patrick Stewart":["Professor X",""]
+            
+        },
+        "trailer":"https://www.youtube.com/embed/aWzlQ2N6qqg",
+        "platforms":"Netflix",
+        "description":"Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+        "image":"../img/movies/d2Cover.jpg",
+        "thumbnail":"../img/movies/d2.jpg",
+        "Trending":2,
+        "releaseDate":"",
+        "images":["../img/moviearray/d21.jpg","../img/moviearray/d22.jpg","../img/movies/d2Cover.jpg"]
+    },
+    {
+        "id":19,
+        "name":"Spiderman : Into the spiderverse",
+        "genre":"sci-fi",
+        "director":"Peter Ramsey",
+        "producer":"Sony pictures",
+        "review":8.4,
+        "cast":{
+            "Jake johnson":["Spider-Man",""],
+            "Shameik Moore":["Miles Morales",""],
+            "Hailee Steinfeld ":["Gwen Stacy",""]
+            
+        },
+        "trailer":"https://www.youtube.com/embed/g4Hbz2jLxvQ",
+        "platforms":"Disney",
+        "description":"After gaining superpowers from a spider bite, Miles Morales protects the city as Spider-Man. Soon, he meets alternate versions of himself and gets embroiled in an epic battle to save the multiverse.",
+        "image":"../img/movies/itsvCover.jpg",
+        "thumbnail":"../img/movies/itsv.jpg",
+        "Trending":2,
+        "releaseDate":"",
+        "images":["../img/moviearray/itsv1.jpg","../img/moviearray/itsv2.jpg","../img/movies/itsvCover.jpg"]
     }
+
+
 
 
     ]}
